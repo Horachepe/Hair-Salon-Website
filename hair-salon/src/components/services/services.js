@@ -9,31 +9,31 @@ function Services() {
                 <div className="service-card women">
                     <h3>Women</h3>
                     <ul>
-                        <li>Cut & Style</li>
-                        <li>Color</li>
-                        <li>Extensions</li>
-                        <li>Updos</li>
-                        <li>Waxing</li>
-                        <li>Makeup</li>
+                        <li>Cut & Style <span className="price">$40</span></li>
+                        <li>Color <span className="price">$40</span></li>
+                        <li>Extensions <span className="price">$40</span></li>
+                        <li>Updos <span className="price">$40</span></li>
+                        <li>Waxing <span className="price">$40</span></li>
+                        <li>Makeup <span className="price">$40</span></li>
                     </ul>
                 </div>
                 <div className="service-card men">
                     <h3>Men</h3>
                     <ul>
-                        <li>Cut & Style</li>
-                        <li>Color</li>
-                        <li>Extensions</li>
-                        <li>Shaving</li>
-                        <li>Waxing</li>
+                        <li>Cut & Style <span className="price">$40</span></li>
+                        <li>Color <span className="price">$40</span></li>
+                        <li>Extensions <span className="price">$40</span></li>
+                        <li>Shaving <span className="price">$40</span></li>
+                        <li>Waxing <span className="price">$40</span></li>
                     </ul>
                 </div>
                 <div className="service-card children">
                     <h3>Children</h3>
                     <ul>
-                        <li>Cut & Style</li>
-                        <li>Color</li>
-                        <li>Extensions</li>
-                        <li>Updos</li>
+                        <li>Cut & Style <span className="price">$40</span></li>
+                        <li>Color <span className="price">$40</span></li>
+                        <li>Extensions <span className="price">$40</span></li>
+                        <li>Updos <span className="price">$40</span></li>
                     </ul>
                 </div>
             </div>

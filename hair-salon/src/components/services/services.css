@@ -46,6 +46,15 @@
     border-bottom: 1px solid #eee;
     margin-bottom: 10px;
     color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff3366;
+    font-size: 1.1rem;
 }
 
 .service-card li:last-child {
