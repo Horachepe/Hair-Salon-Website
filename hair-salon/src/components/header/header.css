@@ -41,6 +41,10 @@ nav ul li a:hover, nav ul li a:focus {
     border-bottom: 2px solid #ff3366;
 }
 
+.menu-icon {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -48,16 +52,43 @@ nav ul li a:hover, nav ul li a:focus {
     }
 
     .header .logo {
+        height: 5em;
         margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    nav {
+        position: absolute;
+        background-color: rgb(255, 232, 236);
+        width: 100%;
+        top: 15%;
+        left: 0;
+        flex-direction: column;
+        display: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+
+    nav.open {
+        display: flex;
     }
 
     nav ul {
         flex-direction: column;
-        align-items: center;
         width: 100%;
     }
 
     nav ul li {
-        margin: 10px 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul li a {
+        padding: 8px;
     }
 }
